@@ -1,7 +1,7 @@
 var buttons = document.getElementsByClassName('button');
 var buttonLength = buttons.length;
 
-for (var i = 0; i < buttonLength; a++) {
-    var buttonText = buttons[a].innerText;
-    console.log('button ' + a + ' text is ' + buttonText);
+for (var i = 0; i < buttonLength; i++) {
+    var buttonText = buttons[i].innerText;
+    console.log('button ' + i + ' text is ' + buttonText);
 }
